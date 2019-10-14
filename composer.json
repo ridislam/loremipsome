@@ -1,0 +1,28 @@
+{
+    "name": "ridislam/loremipsome",
+    "description": "fetch media files from anywhere",
+    "type": "library",
+    "require": {
+        "php": "7.1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rid Islam",
+            "email": "i.ridislam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ridislam\\Loremipsome\\" : "src/"
+        },
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Ridislam\\Loremipsome\\LoremServiceProvider"
+                ]
+            }
+        }
+    }
+}
